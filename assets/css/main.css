@@ -716,8 +716,6 @@
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
         
-        
-        
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
@@ -831,10 +829,10 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		-moz-flex-direction: row wrap;
-		-webkit-flex-direction: row wrap;
-		-ms-flex-direction: row wrap;
-		flex-direction: row wrap;
+		-moz-flex-direction: row;
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
         
         flex-flow: wrap;
         
