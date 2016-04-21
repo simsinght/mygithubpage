@@ -710,6 +710,14 @@
 		cursor: default;
 		opacity: 0.95;
 		text-align: center;
+        
+        -moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+        
+        
+        
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
 		-ms-transform-origin: 50% 50%;
@@ -813,19 +821,22 @@
 		display: -ms-flex;
 		display: flex;
         
-		-moz-align-items: center;
-		-webkit-align-items: center;
-		-ms-align-items: center;
-		align-items: center;
+        /* changed from center to wrap */
+		-moz-align-items: wrap;
+		-webkit-align-items: wrap;
+		-ms-align-items: wrap;
+		align-items: wrap;
         
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		-moz-flex-direction: row;
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
+		-moz-flex-direction: row wrap;
+		-webkit-flex-direction: row wrap;
+		-ms-flex-direction: row wrap;
+		flex-direction: row wrap;
+        
+        flex-flow: wrap;
         
 		-moz-perspective: 1000px;
 		-webkit-perspective: 1000px;
