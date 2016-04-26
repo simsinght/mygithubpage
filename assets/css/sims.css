@@ -1,0 +1,54 @@
+html {
+    background-image: url(../../images/backband.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+}
+
+#big_box {
+    margin-top: 20%;
+    padding: ; 
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    flex-flow: wrap;
+
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#big_box img {
+    height: 100%;
+    max-width: 100%;
+}
+
+#opacity {
+    background-color:black;
+    opacity: .8;
+    
+}
+
+#band {
+    text-align: center;
+    color: white;
+    margin: 4%;
+}
+
+#band .band_icon img{
+    border-radius: 100%;
+}
+
+footer {
+    font-size: 5em;
+    color: red;
+}
+
+footer .people img{
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}

@@ -702,8 +702,8 @@
 
 	#main {
 		position: relative;
-		max-width: 100%;
-		min-width: 27em;
+		max-width: inherit;
+		min-width: inherit;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
@@ -711,10 +711,10 @@
 		opacity: 0.95;
 		text-align: center;
         
-        -moz-flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+        -moz-flex-wrap: left;
+		-webkit-flex-wrap: left;
+		-ms-flex-wrap: left;
+		flex-wrap: left;
         
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -820,10 +820,10 @@
 		display: flex;
         
         /* changed from center to wrap */
-		-moz-align-items: wrap;
-		-webkit-align-items: wrap;
-		-ms-align-items: wrap;
-		align-items: wrap;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
         
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
@@ -834,7 +834,7 @@
 		-ms-flex-direction: row;
 		flex-direction: row;
         
-        flex-flow: wrap;
+        flex-flow: row;
         
 		-moz-perspective: 1000px;
 		-webkit-perspective: 1000px;
