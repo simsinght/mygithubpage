@@ -6,6 +6,7 @@ html {
     
 }
 
+/* everything on the page */
 #big_box {
     margin-top: 20%;
     padding: ; 
@@ -21,32 +22,48 @@ html {
     align-items: center;
 }
 
+/* images within the box */
 #big_box img {
     height: 100%;
     max-width: 100%;
 }
 
+/* opacity of background of names of artists */
 #opacity {
     background-color:black;
     opacity: .8;
     
 }
 
-#band {
+/* name of the band */
+#band1, #band2, #band3 {
     text-align: center;
     color: white;
     margin: 4%;
+    background-color: darkgrey;
+    background-blend-mode: hue;
+    opacity: ;
 }
 
-#band .band_icon img{
+/* images of the band */
+#band1 .band_icon img, #band2 .band_icon img, #band3 .band_icon img{
     border-radius: 100%;
+    position:relative;
+    box-shadow:0 1px 4px .2em #ffffff;
 }
 
+#menu {
+    background-color: black;
+}
+
+
+/* footers */
 footer {
     font-size: 5em;
     color: red;
 }
 
+/* image in a footer but i have none */
 footer .people img{
     width: 100%;
     height: auto;
