@@ -54,8 +54,17 @@ html {
 
 #menu {
     background-color: black;
+    color: aliceblue;
+    
 }
 
+.icons {
+    list-style: none;
+    text-align: center;
+
+    -webkit-transition: background-color .3s, color .15s, box-shadow .3s, opacity 0.3s;
+    transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+}
 
 /* footers */
 footer {
